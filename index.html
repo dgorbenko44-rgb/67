@@ -1,1 +1,81 @@
-
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Золотые 67: Подъем и Управление</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            overflow: hidden; /* Prevent scrollbars */
+        }
+        .scene {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-image: url('ChatGPT Image 5 сент. 2026 г., 19_48_13.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .content {
+            margin-top: auto; /* Push content to bottom */
+            margin-bottom: 50px;
+            text-align: center;
+            opacity: 0; /* Initially hidden */
+            animation: fadeIn 2s forwards;
+            animation-delay: 1.5s; /* Wait for scene to settle */
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .title {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #FFD700;
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
+            margin: 0 0 10px 0;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            color: #ccc;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            font-size: 1rem;
+            font-weight: bold;
+            color: #000;
+            background-color: #FFD700;
+            text-decoration: none;
+            border-radius: 25px;
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+            transition: all 0.3s ease;
+        }
+        .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 25px rgba(255, 215, 0, 0.8);
+            background-color: #ffe033;
+        }
+    </style>
+</head>
+<body>
+    <div class="scene">
+        <!-- Text below the scene, only visible after a short delay -->
+        <div class="content">
+            <h1 class="title">ВАШЕ ЧИСЛО — 67</h1>
+            <p class="subtitle">Символ успеха, управления и подъема</p>
+            <a href="#" class="btn">Начать Управление</a>
+        </div>
+    </div>
+</body>
+</html>
